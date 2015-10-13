@@ -1,7 +1,7 @@
 #!/bin/bash
-img=Seagate-HS-update-201506110006F.img;
+img=Seagate-HS-update-201509160008F.img;
 if [ ! -e ${img} ]; then
-	wget 'https://apps1.seagate.com/downloads/certificate.html?action=performDownload&key=941311271907' -O ${img}
+	wget 'https://apps1.seagate.com/downloads/certificate.html?action=performDownload&key=125608139354' -O ${img}
 fi;
 orig_year="$(echo "$img" | cut -d- -f4 | cut -c1-4)"
 orig_month="$(echo "$img" | cut -d- -f4 | cut -c5-6)"
